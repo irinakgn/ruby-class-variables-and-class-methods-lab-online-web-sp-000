@@ -3,7 +3,7 @@ class Song
   @albums = []
 
   def initialize(song, artist, genre)
-    albums.push({song, artist, genre})
+    @albums.push({song, artist, genre})
   end
 
   def selfs
