@@ -1,5 +1,6 @@
 class Song
 
+  @@album_count = 0
   attr_accessor :albums
   attr_reader :name, :artist, :genre
 
@@ -11,7 +12,7 @@ class Song
     @name =name
     @artist =artist
     @genre = genre
-  
+
   end
 
   def selfs
