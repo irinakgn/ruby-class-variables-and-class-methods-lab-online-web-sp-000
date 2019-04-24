@@ -14,6 +14,7 @@ class Song
     @artist =artist
     @genre = genre
     @@count +=1
+    @@artists << artist if @@artists.includes? artist 
   end
 
   def selfs
