@@ -5,7 +5,7 @@ class Song
   @albums = []
 
   def initialize(name, artist, genre)
-    @albums << {:name => name, :artist => artist, :genre => genre}
+
   end
 
   def selfs
