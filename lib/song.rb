@@ -1,7 +1,8 @@
 class Song
 
   attr_accessor :albums
- attr_reader : name, artist, genre
+  attr_reader : name, artist, genre
+
   @album_count = 0
   @albums = []
 
