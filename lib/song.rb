@@ -1,8 +1,8 @@
 class Song
   @album_count = 0
-
+  @albums = []
   def initialize(song, artist, genre)
-    @album_count += 1
+
   end
 
   def selfs
