@@ -1,7 +1,7 @@
 class Song
 
-  attr_accessor :albums, :name
-  
+  attr_accessor :albums
+
   @album_count = 0
   @albums = []
 
