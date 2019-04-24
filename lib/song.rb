@@ -4,7 +4,7 @@ class Song
   @album_count = 0
   @albums = []
 
-  def initialize(song, artist, genre)
+  def initialize(name, artist, genre)
     @albums << {:song => song, :artist => artist, :genre => genre}
   end
 
