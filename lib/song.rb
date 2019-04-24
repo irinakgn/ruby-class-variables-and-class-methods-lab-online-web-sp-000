@@ -12,4 +12,8 @@ class Song
   def selfs
     @album_count.size
   end
+
+  def name
+    @name
+  end
 end
