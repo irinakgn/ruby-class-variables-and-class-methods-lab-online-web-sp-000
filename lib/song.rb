@@ -3,7 +3,7 @@ class Song
   attr_accessor :albums
   attr_reader :name, :artist, :genre
 
-  @@count = 0
+  
   @album_count = 0
   @albums = []
 
@@ -25,6 +25,4 @@ class Song
   def name
     @name
   end
-
-
 end
