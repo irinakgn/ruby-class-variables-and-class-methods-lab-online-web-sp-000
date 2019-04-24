@@ -6,7 +6,7 @@ class Song
   @albums = []
 
   def initialize(name, artist, genre)
-    
+
   end
 
   def selfs
@@ -17,7 +17,7 @@ class Song
     @name=name
   end
 
-  def name 
+  def name
     @name
   end
 end
