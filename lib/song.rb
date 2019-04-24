@@ -1,11 +1,8 @@
 class Song
   @album_count = 0
 
-def initialize
-  @album_count += 1
-end
 
-def self.count
-  @album_count
-end
+  def selfs
+    @album_count.size
+  end
 end
