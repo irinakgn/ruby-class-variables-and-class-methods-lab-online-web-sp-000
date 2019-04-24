@@ -1,8 +1,9 @@
 class Song
   @album_count = 0
   @albums = []
-  def initialize(song, artist, genre)
 
+  def initialize(song, artist, genre)
+    albums.push({song, artist, genre})
   end
 
   def selfs
