@@ -30,4 +30,7 @@ class Song
   def name
     @name
   end
+
+  def self.count
+  end
 end
